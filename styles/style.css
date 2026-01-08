@@ -264,6 +264,7 @@ nav ul a:hover {
   justify-content: center;
   gap: 16px;
   background-color: #f7f6f2;
+  border-radius: 12px;
 }
 
 #early-access-section h2 {
