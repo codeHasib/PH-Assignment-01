@@ -291,7 +291,8 @@ footer {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  margin-bottom: 80px;
+  padding-bottom: 80px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.111);
 }
 
 #footer-info h4 {
@@ -325,4 +326,5 @@ footer p {
   color: white;
   font-size: 16px;
   font-weight: 400;
+  line-height: 50px;
 }
