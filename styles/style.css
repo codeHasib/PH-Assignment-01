@@ -1,0 +1,42 @@
+/* Default Styles */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "inter", sans-serif;
+}
+
+/* Shared Styles */
+
+.btn {
+  padding: 12px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #30b868;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Header & Nav-Bar Styles */
+
+header nav {
+  max-width: 1360px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 16px auto;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+}
+
+nav ul a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
